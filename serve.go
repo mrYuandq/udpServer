@@ -3,7 +3,7 @@ package udpServer
 import (
 	"net"
 	"os"
-	"udpServer/log"
+	"github.com/mrYuandq/udpServer/log"
 )
 
 var logger = log.NewLogger(os.Stdout)
